@@ -1,0 +1,15 @@
+{
+  "label": "DEMO DATA",
+  "eyebrow": "CRYPTO PULSE / API TEMPLATE",
+  "headlineLine1": "BITCOIN",
+  "headlineLine2": "BREAKS 68K",
+  "ticker": "BTC / USD",
+  "price": "$68,420",
+  "change": "+4.2%",
+  "summary1": "ETF inflows rise",
+  "summary2": "Liquidity holds",
+  "summary3": "Volatility expands",
+  "source": "Source: fictional market feed",
+  "cta": "READY FOR YOUR API",
+  "accent": "45F58A"
+}
