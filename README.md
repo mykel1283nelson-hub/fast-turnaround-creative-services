@@ -35,4 +35,3 @@ Payment can be arranged through PayPal or direct USDT on an explicitly confirmed
 ## Related Work
 
 Technical writing and documentation samples: [small-docs-and-technical-writing](https://github.com/220nightmore-spec/small-docs-and-technical-writing)
-
