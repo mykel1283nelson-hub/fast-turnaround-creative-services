@@ -38,6 +38,12 @@ Sample specifications:
 
 This self-initiated concept for a fictional bookkeeping app demonstrates feature-led App Store copy, mobile-safe visual hierarchy, themed screenshot variations, and current accepted iPhone/iPad portrait dimensions. It is clearly labeled as concept work and does not present fictional screens or metrics as client results.
 
+## Boutique Logo Concept
+
+[View the logo board](samples/logo-concept/)
+
+This self-initiated concept for a fictional cute-goods boutique demonstrates a primary wordmark, compact lockup, monochrome mark, and a cross-cultural visual direction that avoids copying either national flag.
+
 ## Services
 
 - 15-60 second vertical video editing
@@ -47,6 +53,7 @@ This self-initiated concept for a fictional bookkeeping app demonstrates feature
 - Platform-ready MP4 export for Shorts, Reels, and TikTok
 - Parameter-driven video templates and API request fixtures
 - App Store screenshot concepts and themed listing variations
+- Small-business logo concepts and export-ready lockups
 
 Typical small-job range: USD 10-40. The exact scope, price, deadline, revisions, and delivery format are agreed in writing before work starts.
 

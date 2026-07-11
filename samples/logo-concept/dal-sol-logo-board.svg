@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000" viewBox="0 0 1600 1000" role="img" aria-labelledby="title desc">
+  <title id="title">Dal and Sol fictional boutique logo concept board</title>
+  <desc id="desc">A self-initiated logo concept for a cute Korean and Mexican inspired novelty boutique.</desc>
+  <rect width="1600" height="1000" fill="#fffaf3"/>
+  <rect x="48" y="48" width="1504" height="904" rx="28" fill="#ffffff" stroke="#eadfd2" stroke-width="3"/>
+
+  <text x="112" y="125" fill="#51443d" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="700" letter-spacing="3">SELF-INITIATED CONCEPT / FICTIONAL BRAND</text>
+  <text x="112" y="165" fill="#87776d" font-family="Arial, Helvetica, sans-serif" font-size="18">A warm, playful direction for a Korean + Mexican novelty boutique</text>
+
+  <g transform="translate(145 260)">
+    <circle cx="205" cy="205" r="188" fill="#fff3df"/>
+    <g transform="translate(205 205)">
+      <ellipse rx="47" ry="118" fill="#f15b5d" transform="rotate(0) translate(0 -70)"/>
+      <ellipse rx="47" ry="118" fill="#2f7999" transform="rotate(60) translate(0 -70)"/>
+      <ellipse rx="47" ry="118" fill="#f6b23d" transform="rotate(120) translate(0 -70)"/>
+      <ellipse rx="47" ry="118" fill="#f15b5d" transform="rotate(180) translate(0 -70)"/>
+      <ellipse rx="47" ry="118" fill="#2f7999" transform="rotate(240) translate(0 -70)"/>
+      <ellipse rx="47" ry="118" fill="#f6b23d" transform="rotate(300) translate(0 -70)"/>
+      <circle r="94" fill="#fffaf3"/>
+      <path d="M0,-75 A75,75 0 0 1 0,75 A37.5,37.5 0 0 0 0,0 A37.5,37.5 0 0 1 0,-75Z" fill="#f15b5d"/>
+      <path d="M0,75 A75,75 0 0 1 0,-75 A37.5,37.5 0 0 0 0,0 A37.5,37.5 0 0 1 0,75Z" fill="#2f7999"/>
+      <circle cy="-37.5" r="10" fill="#2f7999"/>
+      <circle cy="37.5" r="10" fill="#f15b5d"/>
+    </g>
+    <path d="M40 45 l8 18 18 8-18 8-8 18-8-18-18-8 18-8z" fill="#f6b23d"/>
+    <path d="M370 305 l6 14 14 6-14 6-6 14-6-14-14-6 14-6z" fill="#f6b23d"/>
+  </g>
+
+  <g transform="translate(610 310)">
+    <text x="0" y="95" fill="#2c3435" font-family="Trebuchet MS, Arial, sans-serif" font-size="122" font-weight="700" letter-spacing="8">DAL + SOL</text>
+    <rect x="4" y="128" width="650" height="4" fill="#f6b23d"/>
+    <text x="5" y="180" fill="#6f625b" font-family="Arial, Helvetica, sans-serif" font-size="28" letter-spacing="5">CUTE GOODS / COSAS LINDAS</text>
+    <text x="5" y="250" fill="#87776d" font-family="Arial, Helvetica, sans-serif" font-size="22">Moon + sun naming; floral geometry and balanced color</text>
+    <text x="5" y="284" fill="#87776d" font-family="Arial, Helvetica, sans-serif" font-size="22">reference both cultures without copying either national flag.</text>
+  </g>
+
+  <line x1="112" y1="720" x2="1488" y2="720" stroke="#eadfd2" stroke-width="3"/>
+
+  <g transform="translate(112 770)">
+    <text x="0" y="25" fill="#51443d" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700">PALETTE</text>
+    <circle cx="35" cy="90" r="30" fill="#f15b5d"/><text x="82" y="98" fill="#6f625b" font-family="Arial" font-size="18">Coral</text>
+    <circle cx="205" cy="90" r="30" fill="#2f7999"/><text x="252" y="98" fill="#6f625b" font-family="Arial" font-size="18">Blue</text>
+    <circle cx="360" cy="90" r="30" fill="#f6b23d"/><text x="407" y="98" fill="#6f625b" font-family="Arial" font-size="18">Marigold</text>
+  </g>
+
+  <g transform="translate(720 760)">
+    <rect x="0" y="0" width="350" height="135" rx="18" fill="#2c3435"/>
+    <g transform="translate(26 27) scale(.22)">
+      <circle cx="205" cy="205" r="188" fill="#fff3df"/>
+      <circle cx="205" cy="205" r="110" fill="#f15b5d"/>
+      <circle cx="205" cy="205" r="55" fill="#2f7999"/>
+    </g>
+    <text x="132" y="82" fill="#ffffff" font-family="Trebuchet MS, Arial" font-size="31" font-weight="700" letter-spacing="2">DAL + SOL</text>
+  </g>
+
+  <g transform="translate(1105 760)">
+    <rect width="330" height="135" rx="18" fill="#fff3df" stroke="#eadfd2" stroke-width="2"/>
+    <circle cx="68" cy="67" r="45" fill="#2c3435"/>
+    <circle cx="68" cy="67" r="22" fill="#fff3df"/>
+    <text x="126" y="62" fill="#2c3435" font-family="Trebuchet MS, Arial" font-size="28" font-weight="700">DAL + SOL</text>
+    <text x="128" y="90" fill="#6f625b" font-family="Arial" font-size="15" letter-spacing="2">MONO MARK</text>
+  </g>
+</svg>
