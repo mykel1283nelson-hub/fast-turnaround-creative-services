@@ -18,6 +18,13 @@ var cage_root: Node3D
 var villager: MeshInstance3D
 var boss_root: Node3D
 var portal_core: MeshInstance3D
+var movie_mode := false
+var movie_elapsed := 0.0
+var movie_route: Array[Vector3] = [
+	Vector3(-19.0, 0.9, 9.5), Vector3(-8.0, 0.9, -2.0), Vector3(-5.5, 0.9, -4.5),
+	Vector3(-2.0, 0.9, -12.0), Vector3(6.0, 0.9, -8.5), Vector3(12.0, 0.9, 4.0),
+	Vector3(16.0, 0.9, -5.0), Vector3(22.0, 0.9, -14.0), Vector3(31.0, 0.9, -14.0)
+]
 
 var camp_position := Vector3(12.0, GROUND_Y, 4.0)
 var boss_position := Vector3(22.0, GROUND_Y, -14.0)
@@ -28,13 +35,17 @@ func _ready() -> void:
 	_build_world()
 	_build_ui()
 	_update_ui()
+	movie_mode = "--movie-demo" in OS.get_cmdline_user_args()
 	if "--capture" in OS.get_cmdline_user_args():
 		call_deferred("_capture_gallery")
 	elif "--smoke-test" in OS.get_cmdline_user_args():
 		_run_smoke_test()
 
 
-func _physics_process(_delta: float) -> void:
+func _physics_process(delta: float) -> void:
+	if movie_mode:
+		_advance_movie_demo(delta)
+		return
 	if player == null or run_complete or "--capture" in OS.get_cmdline_user_args():
 		return
 
@@ -50,6 +61,43 @@ func _physics_process(_delta: float) -> void:
 
 	_collect_nearby_resources()
 	_handle_progression()
+
+
+func _advance_movie_demo(delta: float) -> void:
+	const MOVIE_DURATION := 13.0
+	movie_elapsed += delta
+	var normalized := clampf(movie_elapsed / MOVIE_DURATION, 0.0, 1.0)
+	var route_position := normalized * float(movie_route.size() - 1)
+	var route_index := mini(int(floor(route_position)), movie_route.size() - 2)
+	var local_progress := route_position - float(route_index)
+	var previous_position := player.global_position
+	player.global_position = movie_route[route_index].lerp(movie_route[route_index + 1], local_progress)
+	var direction := player.global_position - previous_position
+	if direction.length_squared() > 0.0001:
+		player.rotation.y = atan2(direction.x, direction.z)
+
+	var desired_resources := 0
+	if movie_elapsed >= 2.8:
+		desired_resources = 1
+	if movie_elapsed >= 4.2:
+		desired_resources = 2
+	if movie_elapsed >= 5.8:
+		desired_resources = 3
+	while resource_count < desired_resources and not resource_nodes.is_empty():
+		var crystal: Node3D = resource_nodes.pop_front()
+		crystal.queue_free()
+		resource_count += 1
+		_update_ui()
+
+	if movie_elapsed >= 8.4 and not rescued_villager:
+		_rescue_villager()
+	if movie_elapsed >= 10.9 and not boss_cleared:
+		_clear_boss()
+	if movie_elapsed >= 12.2 and not run_complete:
+		_complete_run()
+	if movie_elapsed >= MOVIE_DURATION:
+		print("SUNFALL_HOLLOW_MOVIE_DEMO_OK")
+		get_tree().quit()
 
 
 func _build_world() -> void:

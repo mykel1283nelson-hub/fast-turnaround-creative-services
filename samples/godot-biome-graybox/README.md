@@ -8,6 +8,10 @@ Self-initiated level-design sample built in Godot 4.7 for a small exploration an
 
 Additional views: [resource loop and camp](screenshots/resource-camp-flow.png) | [boss arena and exit](screenshots/boss-and-exit.png)
 
+Automated route video: [13-second MP4 gameplay demonstration](screenshots/sunfall-hollow-demo.mp4)
+
+![Gameplay video contact sheet](screenshots/video-preview.jpg)
+
 ## Playable flow
 
 1. Start in the village hub.
@@ -48,4 +52,10 @@ To run the deterministic progression check:
 
 ```powershell
 godot --headless --path . -- --smoke-test
+```
+
+To render the automated gameplay route as a movie:
+
+```powershell
+godot --path . --write-movie screenshots/sunfall-hollow-demo.avi --fixed-fps 30 -- --movie-demo
 ```
