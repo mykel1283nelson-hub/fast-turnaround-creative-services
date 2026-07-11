@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720" role="img" aria-labelledby="title desc">
+  <title id="title">Level 1 versus Final Boss gaming thumbnail concept</title>
+  <desc id="desc">A fictional gaming thumbnail with a surprised player avatar facing a large red robot boss.</desc>
+  <rect width="1280" height="720" fill="#11151b"/>
+  <path d="M0 0H610L430 720H0Z" fill="#157f8c"/>
+  <path d="M540 0H660L480 720H360Z" fill="#ffd447"/>
+  <path d="M670 0H1280V720H500Z" fill="#242b35"/>
+
+  <g opacity=".18" stroke="#ffffff" stroke-width="8">
+    <path d="M40 95H380"/>
+    <path d="M25 145H300"/>
+    <path d="M860 90H1240"/>
+    <path d="M905 145H1260"/>
+    <path d="M830 600H1210"/>
+  </g>
+
+  <g transform="translate(68 155)">
+    <circle cx="232" cy="230" r="190" fill="#0b1015" opacity=".55"/>
+    <circle cx="220" cy="214" r="172" fill="#f8c9a4" stroke="#ffffff" stroke-width="14"/>
+    <path d="M62 186C74 46 184 4 278 47C351 80 389 170 362 259C332 197 293 148 226 131C157 113 104 138 62 186Z" fill="#19202a"/>
+    <path d="M56 185C28 188 17 230 35 269C48 299 76 304 94 286L93 185Z" fill="#ffd447" stroke="#10151b" stroke-width="12"/>
+    <path d="M349 185C383 186 397 227 378 269C365 299 338 304 319 286L319 185Z" fill="#ffd447" stroke="#10151b" stroke-width="12"/>
+    <path d="M62 189C72 85 147 24 231 35C318 47 368 113 360 207" fill="none" stroke="#10151b" stroke-width="22"/>
+    <ellipse cx="155" cy="224" rx="29" ry="39" fill="#ffffff"/>
+    <ellipse cx="282" cy="224" rx="29" ry="39" fill="#ffffff"/>
+    <circle cx="162" cy="231" r="14" fill="#11151b"/>
+    <circle cx="275" cy="231" r="14" fill="#11151b"/>
+    <path d="M176 310Q219 268 264 310Q223 367 176 310Z" fill="#ffffff" stroke="#11151b" stroke-width="10"/>
+    <path d="M58 383L18 431" stroke="#ffffff" stroke-width="13"/>
+    <path d="M101 404L79 468" stroke="#ffffff" stroke-width="13"/>
+    <path d="M351 382L397 425" stroke="#ffffff" stroke-width="13"/>
+  </g>
+
+  <g transform="translate(820 108)">
+    <path d="M72 169L25 105L105 125Z" fill="#ef4b4f" stroke="#0b1015" stroke-width="12"/>
+    <path d="M335 166L382 102L302 124Z" fill="#ef4b4f" stroke="#0b1015" stroke-width="12"/>
+    <rect x="75" y="112" width="258" height="244" rx="54" fill="#ef4b4f" stroke="#0b1015" stroke-width="16"/>
+    <path d="M122 196H286L255 267H151Z" fill="#141920" stroke="#ffffff" stroke-width="7"/>
+    <path d="M148 217L194 235L148 251Z" fill="#ffd447"/>
+    <path d="M260 217L214 235L260 251Z" fill="#ffd447"/>
+    <rect x="155" y="303" width="100" height="25" rx="12" fill="#0b1015"/>
+    <path d="M76 282L5 325L39 444L122 397Z" fill="#d5353b" stroke="#0b1015" stroke-width="16"/>
+    <path d="M330 281L402 324L369 444L285 397Z" fill="#d5353b" stroke="#0b1015" stroke-width="16"/>
+    <circle cx="26" cy="430" r="60" fill="#ef4b4f" stroke="#0b1015" stroke-width="16"/>
+    <circle cx="382" cy="430" r="60" fill="#ef4b4f" stroke="#0b1015" stroke-width="16"/>
+    <path d="M164 112L204 54L244 112" fill="#ef4b4f" stroke="#0b1015" stroke-width="16"/>
+    <path d="M183 77H225" stroke="#ffd447" stroke-width="13"/>
+  </g>
+
+  <g font-family="Arial Black, Arial, Helvetica, sans-serif" font-weight="900">
+    <text x="54" y="74" fill="#ffffff" font-family="Arial, Helvetica, sans-serif" font-size="20" letter-spacing="3">SELF-INITIATED / FICTIONAL GAMING CONCEPT</text>
+    <text x="52" y="548" fill="#ffffff" stroke="#11151b" stroke-width="10" paint-order="stroke" font-size="82">LEVEL 1</text>
+    <text x="536" y="438" fill="#ffd447" stroke="#11151b" stroke-width="12" paint-order="stroke" font-size="92" transform="rotate(-8 536 438)">VS</text>
+    <text x="668" y="542" fill="#ffffff" stroke="#11151b" stroke-width="11" paint-order="stroke" font-size="70">FINAL BOSS</text>
+  </g>
+
+  <g transform="translate(470 578)">
+    <path d="M0 0H420L390 85H-28Z" fill="#ef4b4f" stroke="#11151b" stroke-width="10"/>
+    <text x="30" y="58" fill="#ffffff" font-family="Arial Black, Arial, sans-serif" font-size="34" font-weight="900" letter-spacing="2">NO HUD. NO MERCY.</text>
+  </g>
+
+  <path d="M604 252L708 215L667 273L749 290L638 323Z" fill="#ffd447" stroke="#11151b" stroke-width="9"/>
+  <circle cx="1192" cy="74" r="40" fill="#ef4b4f"/>
+  <text x="1192" y="88" text-anchor="middle" fill="#ffffff" font-family="Arial Black, Arial" font-size="38" font-weight="900">!</text>
+</svg>

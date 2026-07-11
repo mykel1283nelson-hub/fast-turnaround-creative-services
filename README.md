@@ -44,6 +44,12 @@ This self-initiated concept for a fictional bookkeeping app demonstrates feature
 
 This self-initiated concept for a fictional cute-goods boutique demonstrates a primary wordmark, compact lockup, monochrome mark, and a cross-cultural visual direction that avoids copying either national flag.
 
+## Gaming Thumbnail Concept
+
+[View the 1280 x 720 thumbnail](samples/gaming-thumbnail/)
+
+This self-initiated fictional gaming concept demonstrates mobile-readable hierarchy, expressive character contrast, and short high-impact copy without claiming client results or fabricated CTR.
+
 ## Services
 
 - 15-60 second vertical video editing
@@ -54,6 +60,7 @@ This self-initiated concept for a fictional cute-goods boutique demonstrates a p
 - Parameter-driven video templates and API request fixtures
 - App Store screenshot concepts and themed listing variations
 - Small-business logo concepts and export-ready lockups
+- Gaming and entertainment thumbnail concepts
 
 Typical small-job range: USD 10-40. The exact scope, price, deadline, revisions, and delivery format are agreed in writing before work starts.
 
