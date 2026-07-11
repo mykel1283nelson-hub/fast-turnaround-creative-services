@@ -32,6 +32,12 @@ Sample specifications:
 - JSON-driven text fields and accent color
 - Reproducible local render and contact-sheet generation
 
+## App Store Screenshot Concept
+
+[View the iPhone and iPad screenshot set](samples/app-store-screenshots/)
+
+This self-initiated concept for a fictional bookkeeping app demonstrates feature-led App Store copy, mobile-safe visual hierarchy, themed screenshot variations, and current accepted iPhone/iPad portrait dimensions. It is clearly labeled as concept work and does not present fictional screens or metrics as client results.
+
 ## Services
 
 - 15-60 second vertical video editing
@@ -40,6 +46,7 @@ Sample specifications:
 - Music and sound-level balancing
 - Platform-ready MP4 export for Shorts, Reels, and TikTok
 - Parameter-driven video templates and API request fixtures
+- App Store screenshot concepts and themed listing variations
 
 Typical small-job range: USD 10-40. The exact scope, price, deadline, revisions, and delivery format are agreed in writing before work starts.
 

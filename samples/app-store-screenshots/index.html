@@ -1,0 +1,340 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>LedgerLite App Store Screenshot Concept</title>
+  <style>
+    * { box-sizing: border-box; }
+    html, body { margin: 0; width: 100%; height: 100%; overflow: hidden; }
+    body {
+      --bg: #18a36b;
+      --accent: #ff6b52;
+      --ink: #101412;
+      --muted: #627069;
+      background: var(--bg);
+      color: var(--ink);
+      font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      letter-spacing: 0;
+      position: relative;
+    }
+    body[data-slide="2"] { --bg: #f5f7f2; --accent: #ff5c4d; }
+    body[data-slide="3"] { --bg: #f6c945; --accent: #125e54; }
+
+    .copy {
+      left: 9.5%;
+      position: absolute;
+      top: 5.5%;
+      width: 81%;
+      z-index: 3;
+    }
+    .eyebrow {
+      align-items: center;
+      display: flex;
+      font-size: 2.5vw;
+      font-weight: 800;
+      gap: 1.2vw;
+      text-transform: uppercase;
+    }
+    .mark {
+      background: var(--ink);
+      border-radius: 22%;
+      display: grid;
+      height: 4.6vw;
+      place-items: center;
+      width: 4.6vw;
+    }
+    .mark::after {
+      background: var(--bg);
+      content: "";
+      height: 42%;
+      width: 42%;
+    }
+    h1 {
+      font-size: 11.5vw;
+      font-weight: 900;
+      line-height: 0.93;
+      margin: 3.8vw 0 2.4vw;
+      max-width: 100%;
+    }
+    .subhead {
+      font-size: 3.7vw;
+      font-weight: 650;
+      line-height: 1.25;
+      margin: 0;
+      max-width: 88%;
+    }
+    .device {
+      background: var(--ink);
+      border: 1.5vw solid var(--ink);
+      border-bottom: 2.1vw solid var(--ink);
+      border-radius: 8vw 8vw 0 0;
+      bottom: -2vw;
+      box-shadow: 0 2.4vw 5vw rgba(16, 20, 18, 0.22);
+      height: 61%;
+      left: 11.5%;
+      overflow: hidden;
+      position: absolute;
+      width: 77%;
+    }
+    .island {
+      background: var(--ink);
+      border-radius: 999px;
+      height: 1.2vw;
+      left: 41%;
+      position: absolute;
+      top: 1.2vw;
+      width: 18%;
+      z-index: 4;
+    }
+    .screen {
+      background: #ffffff;
+      border-radius: 6.2vw 6.2vw 0 0;
+      height: 100%;
+      overflow: hidden;
+      padding: 4.2vw 4vw 3vw;
+      position: relative;
+    }
+    .status, .appbar, .row, .tabs, .receipt-line {
+      align-items: center;
+      display: flex;
+      justify-content: space-between;
+    }
+    .status { font-size: 1.7vw; font-weight: 800; margin: 0 0 3vw; }
+    .appbar h2 { font-size: 4vw; margin: 0; }
+    .avatar {
+      background: var(--accent);
+      border-radius: 50%;
+      height: 5vw;
+      width: 5vw;
+    }
+    .tabs {
+      background: #edf1ed;
+      border-radius: 999px;
+      font-size: 1.8vw;
+      font-weight: 750;
+      margin: 3vw 0;
+      padding: 0.75vw;
+    }
+    .tab { padding: 1.2vw 2.2vw; }
+    .tab.active { background: var(--ink); border-radius: 999px; color: #fff; }
+    .hero-card {
+      background: var(--ink);
+      border-radius: 3vw;
+      color: #fff;
+      min-height: 21vw;
+      padding: 3vw;
+      position: relative;
+    }
+    .hero-card .label { color: #bac3bd; font-size: 1.8vw; font-weight: 700; }
+    .hero-card .amount { font-size: 7.2vw; font-weight: 900; margin-top: 1.8vw; }
+    .delta {
+      background: #baffd5;
+      border-radius: 999px;
+      color: #0a4d31;
+      font-size: 1.7vw;
+      font-weight: 850;
+      padding: 1vw 1.5vw;
+      position: absolute;
+      right: 3vw;
+      top: 3vw;
+    }
+    .bars {
+      align-items: end;
+      bottom: 2.6vw;
+      display: flex;
+      gap: 1vw;
+      height: 6vw;
+      left: 3vw;
+      position: absolute;
+      right: 3vw;
+    }
+    .bars i { background: var(--accent); border-radius: 999px 999px 0 0; flex: 1; }
+    .bars i:nth-child(1) { height: 45%; }
+    .bars i:nth-child(2) { height: 70%; }
+    .bars i:nth-child(3) { height: 52%; }
+    .bars i:nth-child(4) { height: 86%; }
+    .bars i:nth-child(5) { height: 68%; }
+    .bars i:nth-child(6) { height: 100%; }
+    .section-title { font-size: 2.5vw; font-weight: 850; margin: 3.2vw 0 1.8vw; }
+    .receipt {
+      border: 0.18vw solid #dce3de;
+      border-radius: 2.2vw;
+      margin-bottom: 1.4vw;
+      padding: 2vw;
+    }
+    .receipt-icon {
+      background: #e5f7ee;
+      border-radius: 1.2vw;
+      height: 4.8vw;
+      margin-right: 1.6vw;
+      width: 4.8vw;
+    }
+    .receipt-copy { flex: 1; }
+    .receipt-copy strong, .receipt-copy span { display: block; }
+    .receipt-copy strong { font-size: 2vw; }
+    .receipt-copy span { color: var(--muted); font-size: 1.55vw; margin-top: 0.4vw; }
+    .receipt-price { font-size: 2vw; font-weight: 850; }
+    .action {
+      align-items: center;
+      background: var(--accent);
+      border-radius: 2vw;
+      display: flex;
+      font-size: 2.3vw;
+      font-weight: 850;
+      justify-content: center;
+      margin-top: 2vw;
+      padding: 2.2vw;
+    }
+    .concept-note {
+      bottom: 2.2%;
+      color: rgba(16, 20, 18, 0.72);
+      font-size: 1.65vw;
+      font-weight: 700;
+      left: 0;
+      position: absolute;
+      text-align: center;
+      width: 100%;
+      z-index: 5;
+    }
+    body[data-slide="1"] .copy { color: #071e15; }
+    body[data-slide="1"] .subhead { max-width: 75%; }
+    body[data-slide="2"] .copy { top: 5.2%; }
+    body[data-slide="2"] h1 { font-size: 10.7vw; }
+    body[data-slide="2"] .hero-card { background: #125e54; }
+    body[data-slide="2"] .bars i { background: #ffcf3c; }
+    body[data-slide="3"] .hero-card { background: #ffffff; color: var(--ink); border: 0.2vw solid var(--ink); }
+    body[data-slide="3"] .hero-card .label { color: #57635d; }
+    body[data-slide="3"] .bars i { background: #125e54; }
+    body[data-slide="3"] .delta { background: #101412; color: #fff; }
+
+    body[data-device="ipad"] .copy { left: 7%; top: 5.4%; width: 86%; }
+    body[data-device="ipad"] h1 { font-size: 8.2vw; line-height: 0.96; margin-top: 2.2vw; }
+    body[data-device="ipad"] .subhead { font-size: 2.8vw; max-width: 72%; }
+    body[data-device="ipad"] .device {
+      border-radius: 4vw 4vw 0 0;
+      bottom: -1vw;
+      height: 63%;
+      left: 7%;
+      width: 86%;
+    }
+    body[data-device="ipad"] .screen { border-radius: 3vw 3vw 0 0; padding: 3vw; }
+    body[data-device="ipad"] .island { display: none; }
+    body[data-device="ipad"] .status { font-size: 1.1vw; margin-bottom: 1.8vw; }
+    body[data-device="ipad"] .appbar h2 { font-size: 2.7vw; }
+    body[data-device="ipad"] .avatar { height: 3.5vw; width: 3.5vw; }
+    body[data-device="ipad"] .tabs { font-size: 1.25vw; margin: 1.8vw 0; }
+    body[data-device="ipad"] .tab { padding: 0.8vw 1.7vw; }
+    body[data-device="ipad"] .hero-card { min-height: 14vw; padding: 2vw; }
+    body[data-device="ipad"] .hero-card .label { font-size: 1.25vw; }
+    body[data-device="ipad"] .hero-card .amount { font-size: 4.8vw; margin-top: 1.1vw; }
+    body[data-device="ipad"] .delta { font-size: 1.1vw; padding: 0.7vw 1vw; right: 2vw; top: 2vw; }
+    body[data-device="ipad"] .bars { bottom: 1.6vw; height: 4vw; left: 2vw; right: 2vw; }
+    body[data-device="ipad"] .section-title { font-size: 1.7vw; margin: 2vw 0 1vw; }
+    body[data-device="ipad"] .receipt { border-radius: 1.2vw; margin-bottom: 0.8vw; padding: 1.2vw; }
+    body[data-device="ipad"] .receipt-icon { border-radius: 0.7vw; height: 3vw; width: 3vw; }
+    body[data-device="ipad"] .receipt-copy strong, body[data-device="ipad"] .receipt-price { font-size: 1.35vw; }
+    body[data-device="ipad"] .receipt-copy span { font-size: 1.05vw; }
+    body[data-device="ipad"] .action { font-size: 1.5vw; margin-top: 1.2vw; padding: 1.4vw; }
+    body[data-device="ipad"] .concept-note { font-size: 1.1vw; }
+  </style>
+</head>
+<body>
+  <main>
+    <section class="copy">
+      <div class="eyebrow"><span class="mark"></span><span>LedgerLite</span></div>
+      <h1 id="headline">Receipts in.<br>Stress out.</h1>
+      <p class="subhead" id="subhead">Capture expenses in seconds and keep every tax-ready detail organized.</p>
+    </section>
+
+    <section class="device" aria-label="LedgerLite mobile app concept">
+      <div class="island"></div>
+      <div class="screen">
+        <div class="status"><span>9:41</span><span>5G&nbsp;&nbsp;100%</span></div>
+        <div class="appbar"><h2>Good morning, Alex</h2><span class="avatar"></span></div>
+        <div class="tabs"><span class="tab active">Overview</span><span class="tab">Receipts</span><span class="tab">Reports</span></div>
+        <div class="hero-card">
+          <div class="label" id="metric-label">Business spend this month</div>
+          <div class="amount" id="metric-value">$4,280</div>
+          <div class="delta" id="metric-delta">12% under plan</div>
+          <div class="bars"><i></i><i></i><i></i><i></i><i></i><i></i></div>
+        </div>
+        <div class="section-title" id="section-title">Recently captured</div>
+        <div class="receipt">
+          <div class="receipt-line"><span class="receipt-icon"></span><span class="receipt-copy"><strong>Studio Supply Co.</strong><span>Equipment · Today</span></span><span class="receipt-price">$246.00</span></div>
+        </div>
+        <div class="receipt">
+          <div class="receipt-line"><span class="receipt-icon"></span><span class="receipt-copy"><strong>Cloud Workspace</strong><span>Software · Yesterday</span></span><span class="receipt-price">$39.00</span></div>
+        </div>
+        <div class="receipt">
+          <div class="receipt-line"><span class="receipt-icon"></span><span class="receipt-copy"><strong>Northline Coffee</strong><span>Meals · Jul 9</span></span><span class="receipt-price">$18.40</span></div>
+        </div>
+        <div class="action" id="action">Scan a receipt</div>
+      </div>
+    </section>
+    <p class="concept-note">Self-initiated App Store screenshot concept · Fictional product and data</p>
+  </main>
+  <script>
+    const params = new URLSearchParams(location.search);
+    const slide = params.get('slide') || '1';
+    const device = params.get('device') || 'iphone';
+    const targetCanvas = device === 'ipad'
+      ? { width: 2048, height: 2732 }
+      : { width: 1290, height: 2796 };
+    const canvas = params.get('render') === 'proxy'
+      ? { width: targetCanvas.width / 2, height: targetCanvas.height / 2 }
+      : targetCanvas;
+    document.documentElement.style.width = `${canvas.width}px`;
+    document.documentElement.style.height = `${canvas.height}px`;
+    document.body.style.width = `${canvas.width}px`;
+    document.body.style.height = `${canvas.height}px`;
+    const content = {
+      '1': {
+        headline: 'Receipts in.<br>Stress out.',
+        subhead: 'Capture expenses in seconds and keep every tax-ready detail organized.',
+        label: 'Business spend this month',
+        value: '$4,280',
+        delta: '12% under plan',
+        section: 'Recently captured',
+        action: 'Scan a receipt'
+      },
+      '2': {
+        headline: 'Know where<br>cash goes.',
+        subhead: 'See spending patterns before they become budget surprises.',
+        label: 'Available operating cash',
+        value: '$18,640',
+        delta: '+8.4% this month',
+        section: 'Top categories',
+        action: 'Open cash-flow report'
+      },
+      '3': {
+        headline: 'Tax time,<br>already sorted.',
+        subhead: 'Smart categories and clean exports keep every deductible expense ready.',
+        label: 'Potential deductions found',
+        value: '$2,315',
+        delta: '94% categorized',
+        section: 'Ready for review',
+        action: 'Export tax report'
+      },
+      '4': {
+        headline: 'One dashboard.<br>Every receipt.',
+        subhead: 'A focused iPad view for reviewing spend, categories, and tax-ready records.',
+        label: 'Business spend this quarter',
+        value: '$12,840',
+        delta: '91% categorized',
+        section: 'Latest business expenses',
+        action: 'Review quarterly report'
+      }
+    }[slide];
+    document.body.dataset.slide = slide;
+    document.body.dataset.device = device;
+    document.getElementById('headline').innerHTML = content.headline;
+    document.getElementById('subhead').textContent = content.subhead;
+    document.getElementById('metric-label').textContent = content.label;
+    document.getElementById('metric-value').textContent = content.value;
+    document.getElementById('metric-delta').textContent = content.delta;
+    document.getElementById('section-title').textContent = content.section;
+    document.getElementById('action').textContent = content.action;
+  </script>
+</body>
+</html>

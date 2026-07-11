@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Preparing export</title>
+</head>
+<body>
+  <canvas id="export"></canvas>
+  <script>
+    const params = new URLSearchParams(location.search);
+    const source = params.get('source');
+    const width = Number(params.get('width'));
+    const height = Number(params.get('height'));
+    const canvas = document.getElementById('export');
+    const context = canvas.getContext('2d');
+    const image = new Image();
+
+    canvas.width = width;
+    canvas.height = height;
+    context.imageSmoothingEnabled = true;
+    context.imageSmoothingQuality = 'high';
+    image.addEventListener('load', () => {
+      context.drawImage(image, 0, 0, width, height);
+      canvas.dataset.ready = 'true';
+      document.title = 'Export ready';
+    });
+    image.src = source;
+  </script>
+</body>
+</html>
