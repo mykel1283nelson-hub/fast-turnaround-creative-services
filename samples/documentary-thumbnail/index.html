@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Who Owns the Moon documentary thumbnail concept</title>
+  <style>
+    * { box-sizing: border-box; }
+    html, body { margin: 0; width: 100%; height: 100%; overflow: hidden; background: #0b0f16; }
+    body { font-family: Arial, Helvetica, sans-serif; }
+    .canvas { position: relative; width: 100vw; height: 100vh; overflow: hidden; background: #111722; color: #fff; }
+    .moon-photo { position: absolute; inset: 0 0 0 42%; width: 58%; height: 100%; object-fit: cover; object-position: 56% center; filter: contrast(1.12) saturate(.72); }
+    .photo-shade { position: absolute; inset: 0; background: rgba(5, 9, 14, .22); }
+    .left-field { position: absolute; inset: 0 auto 0 0; width: 58%; background: #0c1119; clip-path: polygon(0 0, 82% 0, 100% 100%, 0 100%); }
+    .yellow-cut { position: absolute; top: 0; left: 52%; width: 8.5%; height: 100%; background: #ffd43b; transform: skewX(-10deg); transform-origin: top; box-shadow: 18px 0 0 rgba(9, 13, 19, .78); }
+    .earth { position: absolute; right: 5.5%; top: 6%; width: 26%; aspect-ratio: 1; border-radius: 50%; object-fit: cover; border: 14px solid #f6f2e8; box-shadow: 0 0 0 18px rgba(7, 11, 17, .74); }
+    .earth-ring { position: absolute; right: 3.4%; top: 3.8%; width: 30.2%; aspect-ratio: 1; border: 5px solid #ffd43b; border-radius: 50%; }
+    .kicker { position: absolute; top: 7%; left: 4%; font-size: clamp(16px, 1.35vw, 28px); font-weight: 800; letter-spacing: 4px; color: #cbd4df; }
+    .copy { position: absolute; left: 4%; top: 23%; width: 52%; z-index: 4; }
+    .copy .line-one, .copy .line-two { display: block; font-family: Arial Black, Arial, Helvetica, sans-serif; font-weight: 900; letter-spacing: 0; line-height: .88; text-shadow: 0 10px 0 #05070a; }
+    .copy .line-one { font-size: clamp(70px, 7vw, 145px); color: #fff; }
+    .copy .line-two { margin-top: 3.5%; font-size: clamp(82px, 8.4vw, 176px); color: #ffd43b; }
+    .tag { position: absolute; left: 4.2%; bottom: 14%; z-index: 5; padding: 1.25% 2.25%; background: #e94249; border: 7px solid #05070a; color: white; font-family: Arial Black, Arial, sans-serif; font-size: clamp(24px, 2.25vw, 47px); font-weight: 900; letter-spacing: 2px; transform: rotate(-2deg); }
+    .tag::after { content: ""; position: absolute; right: -36px; top: 18%; border-left: 36px solid #e94249; border-top: 30px solid transparent; border-bottom: 30px solid transparent; }
+    .question { position: absolute; right: 3%; bottom: 3%; color: #ffd43b; font-family: Arial Black, Arial, sans-serif; font-size: clamp(140px, 16vw, 330px); line-height: .8; text-shadow: 0 12px 0 #05070a; }
+    .fact { position: absolute; left: 4.2%; bottom: 5.5%; font-size: clamp(14px, 1.25vw, 26px); font-weight: 700; letter-spacing: 3px; color: #aeb8c5; }
+    .star { position: absolute; width: 8px; height: 8px; background: #fff; border-radius: 50%; }
+    .s1 { left: 66%; top: 10%; }
+    .s2 { left: 76%; top: 49%; width: 5px; height: 5px; }
+    .s3 { left: 62%; top: 75%; width: 6px; height: 6px; }
+    .s4 { right: 7%; top: 57%; width: 5px; height: 5px; }
+  </style>
+</head>
+<body>
+  <main class="canvas" aria-label="Who Owns the Moon documentary thumbnail">
+    <img class="moon-photo" src="https://images-assets.nasa.gov/image/as11-40-5903/as11-40-5903~orig.jpg" alt="">
+    <div class="photo-shade"></div>
+    <div class="left-field"></div>
+    <div class="yellow-cut"></div>
+    <div class="earth-ring"></div>
+    <img class="earth" src="https://images-assets.nasa.gov/image/as17-148-22727/as17-148-22727~orig.jpg" alt="">
+    <div class="kicker">SELF-INITIATED / NON-AI DOCUMENTARY CONCEPT</div>
+    <div class="copy"><span class="line-one">WHO OWNS</span><span class="line-two">THE MOON?</span></div>
+    <div class="tag">THE NEW SPACE RACE</div>
+    <div class="fact">POLITICS • BUSINESS • POWER</div>
+    <div class="question">?</div>
+    <span class="star s1"></span><span class="star s2"></span><span class="star s3"></span><span class="star s4"></span>
+  </main>
+</body>
+</html>

@@ -50,6 +50,12 @@ This self-initiated concept for a fictional cute-goods boutique demonstrates a p
 
 This self-initiated fictional gaming concept demonstrates mobile-readable hierarchy, expressive character contrast, and short high-impact copy without claiming client results or fabricated CTR.
 
+## Documentary Thumbnail Concept
+
+[View the 1920 x 1080 documentary thumbnail](samples/documentary-thumbnail/)
+
+This self-initiated non-AI concept uses manually composed public-domain NASA photography, source notes, high-impact typography, and a politics/business/educational premise. It makes no client or CTR claim.
+
 ## Services
 
 - 15-60 second vertical video editing
@@ -61,6 +67,7 @@ This self-initiated fictional gaming concept demonstrates mobile-readable hierar
 - App Store screenshot concepts and themed listing variations
 - Small-business logo concepts and export-ready lockups
 - Gaming and entertainment thumbnail concepts
+- Documentary and educational thumbnail concepts
 
 Typical small-job range: USD 10-40. The exact scope, price, deadline, revisions, and delivery format are agreed in writing before work starts.
 
