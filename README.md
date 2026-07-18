@@ -44,6 +44,12 @@ This self-initiated concept for a fictional bookkeeping app demonstrates feature
 
 This self-initiated concept for a fictional cute-goods boutique demonstrates a primary wordmark, compact lockup, monochrome mark, and a cross-cultural visual direction that avoids copying either national flag.
 
+## Luxury Tea Wrap-Label Style Study
+
+[View the editable packaging study](samples/luxury-tea-label/)
+
+This self-initiated, speculative concept explores an antique-atlas tea-house direction with original AI-assisted engraving artwork, a reduced one-color vector study, a 306 × 146 mm editable canvas built around a true 300 × 140 mm trim area, named forest-ink and gold-preview layers, and explicit bleed/safe-area guides. It is a production-aware direction—not a claim of final prepress or commissioned client work.
+
 ## Gaming Thumbnail Concept
 
 [View the 1280 x 720 thumbnail](samples/gaming-thumbnail/)
@@ -84,19 +90,20 @@ This self-initiated, AI-assisted concept shows a fictional courtyard house as a 
 - Parameter-driven video templates and API request fixtures
 - App Store screenshot concepts and themed listing variations
 - Small-business logo concepts and export-ready lockups
+- Luxury product wordmarks, editable wrap-label systems, and print handoff preparation
 - Gaming and entertainment thumbnail concepts
 - Documentary and educational thumbnail concepts
 - Real-estate talking-head thumbnail concepts
 - Robotics, AI, and technology thumbnail concepts
 - AI-assisted architectural sketch and rendering concepts
 
-Typical small-job range: USD 10-40. The exact scope, price, deadline, revisions, and delivery format are agreed in writing before work starts.
+Typical micro-edit range: USD 15-75. Larger video packages, brand systems, illustration, and print-ready packaging are quoted by scope. The exact price, deadline, revision count, rights, and delivery format are agreed in writing before work starts.
 
 ## Request Work
 
-[Open a service request](../../issues/new?template=service-request.yml) with the source material, target platform, deadline, and budget. Do not include passwords, payment-account details, private customer data, or unpublished credentials.
+[Open a service request](https://github.com/220nightmore-spec/fast-turnaround-creative-services/issues/new?template=service-request.yml) with the source material, target platform, deadline, and budget. Do not include passwords, payment-account details, private customer data, or unpublished credentials.
 
-Payment can be arranged through PayPal or direct USDT on an explicitly confirmed network after the written scope is accepted. No payment links, deposits, wallet connections, signatures, or account access are required.
+Payment can be arranged through a PayPal or Stripe invoice after the written scope is accepted. No wallet connection, signature request, password, or account access is ever required.
 
 ## Related Work
 
