@@ -32,6 +32,22 @@ Sample specifications:
 - JSON-driven text fields and accent color
 - Reproducible local render and contact-sheet generation
 
+## AI-Assisted Pixel-Art Intro Concept
+
+[Watch the 4-second motion proof](samples/pixel-art-intro/pixel-art-beauty-motion-proof.mp4)
+
+![Original pixel-art beauty/lifestyle concept frame](samples/pixel-art-intro/pixel-art-beauty-concept-frame.png)
+
+This self-initiated concept demonstrates an original soft-luxury art direction, a fictional character, and a video-ready widescreen composition for a creator intro. The base frame was AI-assisted and the motion proof was rendered locally with FFmpeg. It is demonstration work, not a commissioned client result or a copy of an existing creator's intro.
+
+Sample specifications:
+
+- 1920 x 1080 widescreen motion delivery
+- 4 seconds, 30 fps, H.264 MP4
+- Original fictional character and environment
+- Subtle seamless camera motion for concept review
+- [Production notes and disclosure](samples/pixel-art-intro/)
+
 ## App Store Screenshot Concept
 
 [View the iPhone and iPad screenshot set](samples/app-store-screenshots/)
@@ -96,15 +112,16 @@ This self-initiated, AI-assisted concept shows a fictional courtyard house as a 
 - Real-estate talking-head thumbnail concepts
 - Robotics, AI, and technology thumbnail concepts
 - AI-assisted architectural sketch and rendering concepts
+- Original AI-assisted character and intro concepts with local motion finishing
 
-Typical micro-edit range: USD 15-75. Larger video packages, brand systems, illustration, and print-ready packaging are quoted by scope. The exact price, deadline, revision count, rights, and delivery format are agreed in writing before work starts.
+Paid editing pilots typically start at USD 60. Custom animation, multi-asset packages, brand systems, illustration, recurring work, and printer-specific packaging preparation are quoted after the source material and acceptance criteria are reviewed. The exact scope, price, deadline, revisions, rights, payment timing, and delivery format are agreed in writing before work starts.
 
 ## Request Work
 
-[Open a service request](https://github.com/220nightmore-spec/fast-turnaround-creative-services/issues/new?template=service-request.yml) with the source material, target platform, deadline, and budget. Do not include passwords, payment-account details, private customer data, or unpublished credentials.
+[Open a service request](https://github.com/mykel1283nelson-hub/fast-turnaround-creative-services/issues/new?template=service-request.yml) with the source material, target platform, deadline, and budget. Do not include passwords, payment-account details, private customer data, or unpublished credentials.
 
-Payment can be arranged through a PayPal or Stripe invoice after the written scope is accepted. No wallet connection, signature request, password, or account access is ever required.
+Payment can be arranged through a PayPal or Stripe invoice, or another mutually agreed protected method, after the written scope is accepted. No wallet connection, signature request, password, account credential, recovery code, or customer-data access is ever required.
 
 ## Related Work
 
-Technical writing and documentation samples: [small-docs-and-technical-writing](https://github.com/220nightmore-spec/small-docs-and-technical-writing)
+Technical writing and documentation samples: [small-docs-and-technical-writing](https://github.com/mykel1283nelson-hub/small-docs-and-technical-writing)
